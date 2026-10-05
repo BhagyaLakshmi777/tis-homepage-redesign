@@ -1,0 +1,201 @@
+.footer-container{
+    background-color:#B90124;
+    padding-top:20px;
+    padding-bottom:20px;
+    padding-right:20px;
+    
+}
+.school-img1 {
+    height: 70px;
+    width: 70px;
+    
+}
+
+.address-part{
+    display: flex;
+    align-items: center;
+
+}
+.icon1{
+  color:#ffffff;
+}
+.area{
+   color: #ffffff;
+   font-size:13px;
+   font-family: Exo, sans-serif;
+   margin-left: 13px;
+   margin-top: 10px;
+}
+.area-container{
+    display: flex;
+    justify-content: center;
+
+
+}
+.location-container{
+    display: flex;
+    align-items:center;
+}
+.line{
+    border:1px solid white;
+    margin-left:15px;
+
+}
+.button1{
+    background-color:#ffffff;
+    color:#B90124;
+    font-size: 15px;
+    width: 30%;
+    height: 30px;
+    border-radius: 4px;
+    border:none;
+    outline:none;
+      margin:10px;
+}
+.button-container{
+    display:flex;
+    justify-content: center;
+    padding-left:10px;
+  
+
+}
+.each-policy{
+     color: #ffffff;
+   font-size:15px;
+   font-family: Exo, sans-serif;
+   margin: 5px;
+    
+}
+.app{
+    color: gray;
+}
+.app-name{
+    color: #ffffff;
+    font-size: 13px;
+    font-weight: bold;
+    margin-left: 3px;
+
+}
+.each-app{
+    display: flex;
+    align-items: center;
+    margin: 10px;
+}
+.policy-app-container{
+    display: flex;
+    justify-content: center;
+
+}
+.copy-icon{
+    color: #ffffff;
+    margin: 3px;
+
+}
+.copy-right{
+    color:#ffffff;
+    font-size: 13px;
+    font-family: Exo, sans-serif;
+    font-weight:bold;
+    margin:10px;
+    text-align: center;
+   
+}
+.school-img{
+    display:none;
+}
+.policy-container1{
+
+    display:none;
+}
+.button-container1{
+    display: none;
+}
+.copy-right1{
+    display:none;
+}
+.app-container{
+    margin-left:5px;
+}
+@media screen and (min-width: 768px){
+    .school-img1{
+        display:none;
+
+    }
+    .school-img{
+        height: 120px;
+        width:170px;
+        display:block;
+    }
+    .area-container{
+        flex-direction: column;
+        margin-left:50px;
+    }
+    .info-container{
+        margin-top: 15px;
+    }
+    .container1{
+        display: flex;
+        align-items:center;
+        margin-bottom:10px;
+    }
+    .policy-container1{
+        display: block;
+        margin-left:20px;
+        
+    }
+    .policy-container{
+        display:none;
+    }
+    .each-policy{
+        color: #ffffff;
+        font-size:17px;
+        font-family: Exo, sans-serif;
+        font-weight:bold;
+        margin-top: 10px;
+    }
+     .button-container1{
+        flex-direction: column;
+        display:block;
+      
+        flex-grow:1;
+        margin-left:20px;
+     }
+     .button-container{
+        display:none;
+     }
+     .button1{
+        height: 50px;
+        width: 200px;
+        font-size: 20px;
+        font-weight: bold;
+     }
+     .app-container{
+        display:flex;
+        align-self: center;
+        
+     }
+     .app-name{
+        display: none;
+     }
+     .copy-right{
+        display:none;
+
+     }
+     .copy-right1{
+         color:#ffffff;
+        font-size: 13px;
+        font-family: Exo, sans-serif;
+        font-weight:bold;
+        margin:10px;
+        text-align: center;
+        display:block;
+   
+     }
+     .copyright-container{
+        display: flex;
+        flex-direction:column;
+     }
+     .area{
+        font-size: 17px;
+     }
+}

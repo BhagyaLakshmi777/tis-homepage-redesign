@@ -1,0 +1,287 @@
+.main-container{
+    background-image: url("https://tis.edu.in/_next/static/media/schoolTopView.6e263e02.webp");
+    background-color: aqua;
+}
+.hero-container{
+    background-color:#fe0b39;
+    border-radius: 15px;
+    min-height: 100vh;
+    padding-top: 180px;
+    display: flex;
+    flex-direction: column;
+}
+.volley-img{
+    height: 350px;
+    width: 250px;
+}
+.main-heading{
+    color: #ffffff;
+    font-size: 60px;
+    font-family: "Mirador";
+    font-weight: bold;
+    align-self: center;
+    position:fixed;
+    opacity:0.5;
+    margin-top:70px;
+    text-align:center;
+}
+.volley-img1{
+    height: 280px;
+    width: 250px;
+    align-self: flex-end;
+    margin-right: 10px;
+}
+.img-container{
+    display:flex;
+    flex-direction: column;
+}
+.description{
+    color:#ffffff;
+    font-size: 20px;
+    font-family: Exo, sans-serif;
+    text-align: center;
+    margin:30px;
+    width: 100%;
+    align-self:center;
+}
+.contact-container{
+   margin-bottom: 30px;
+    
+}
+.student-info{
+    display: flex;
+}
+.admin-info{
+    background-color: #ffffff;
+}
+.contact{
+    font-size: 15px;
+    font-family: Exo, sans-serif; 
+}
+.each-section{
+    display: flex;
+    margin:10px;
+}
+.text{
+    margin-left: 10px;
+}
+
+.enquire{
+    font-size: 20px;
+    font-weight:bold;
+    text-decoration:underline;
+    text-align:center;
+}
+.name-input{
+    background-color:rgb(201, 240, 227);
+    height: 40px;
+    width: 95%;
+    color: gray;
+    outline: none;
+    border:none;
+    border-radius: 5px;
+    padding:5px;
+    margin-left: 10px;
+    margin-top:10px;
+}
+.name-input2{
+    width:75%;
+}
+.code{
+    width:50px;
+}
+.otp-btn{
+    color:#ffffff;
+    background-color: #000000;
+    height: 40px;
+    width: 95%;
+
+    border-radius:5px;
+    border:none;
+    outline: none;
+    margin-left:10px;
+    margin-top: 10px;
+}
+.otp{
+    width: 95%;
+}
+.checkbox{
+    height: 15px;
+    width: 15px;
+    margin:10px;
+}
+.checkbox-container{
+    display: flex;
+    align-items:center;
+    margin-top:10px;
+
+}
+.checkbox-text{
+    margin:10px;
+    font-size:12px;
+    font-family:Exo, sans-serif;
+    font-weight:bold;
+}
+.enquire-btn{
+    color: #ffffff;
+    background-color: #000000;
+    border-radius: 5px;
+    height: 40px;
+    width: 95%;
+    outline: none;
+    border:none;
+    
+}
+.enquire-button-container{
+    display:flex;
+    justify-content:center;
+}
+.contact-container{
+    border-radius: 20px;
+    margin: 40px;
+    
+}
+.admin-info{
+    border-radius: 20px;
+    padding: 20px;
+    display:none;
+}
+.icon{
+    color:rgb(13, 92, 4);
+}
+.reviews-container{
+    background-image: url("https://tis.edu.in/_next/static/media/googleReviewsBackground.3003d907.png");
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.review-heading{
+    color: #ffffff;
+    font-size: 35px;
+    font-family: "Mirador";
+    font-weight: bold;
+    padding-top:20px;
+    font-style:italic;
+}
+.review-list-item{
+    background-color: #ffffff;
+    border-radius: 10px;
+    margin:30px;
+    padding:10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.review-img{
+    height: 100px;
+    width:100px;
+    border-radius: 50%;
+}
+.person-name{
+    font-size: 20px;
+    font-family:Exo, sans-serif;
+    font-weight: 200;
+    text-align: center;
+}
+.review-text{
+    font-size: 12px;
+    font-family: Exo, sans-serif;
+    text-align: center;
+    margin-top:5px;
+}
+.relation{
+    font-size:12px;
+    font-family: Exo, sans-serif;
+    font-weight:bold;
+    text-align: center;
+
+}
+.review-list-container{
+    display: flex;
+    list-style-type:none;
+}
+@media screen and (min-width:768px){
+    .volley-img:hover{
+        height: 400px;
+        margin-top:30px;
+    }
+    .otp-btn{
+        width:160px;
+    }
+    .volley-img1:hover{
+        height: 400px;
+        margin-top:30px;
+    }
+    .name-input{
+        background-color:rgb(201, 240, 227);
+        height: 40px;
+        width: 300px;
+        color: gray;
+        outline: none;
+        border:none;
+        border-radius: 5px;
+        padding:5px;
+        margin-left: 10px;
+        margin-top:10px;
+    }
+    .name-input2{
+      width: 380px;
+    }
+    .code{
+    width:50px;
+    }
+    .otp{
+        width:440px;
+    }
+    .img-container{
+        display:flex;
+        justify-content:space-between;
+        margin-top: 20px;
+    }
+    .description{
+        width:60%;
+    }
+    .admin-info{
+        display: flex;
+        flex-direction:column;
+    }
+    .tis-image{
+        height:70px;
+        width:70px;
+        padding-top:10px;
+    }
+    .details{
+        background-color:aquamarine;
+        flex-direction:column;
+        align-items:center;
+        justify-content: center;
+        flex-grow:1;
+        border-radius:20px;
+        padding: 20px;
+    }
+   
+    .admin-info{
+        display:block;
+    }
+    .enquire-btn{
+        width:220px;
+        
+    }
+    .main-heading{
+        font-size: 80px;
+    }
+    .review-heading{
+        font-size: 50px;
+    }
+}
+@media screen and (max-width:768px){
+    .review-list-container{
+        overflow-y:hidden;
+        flex-wrap:wrap;
+
+    }
+    .review-list-item{
+        width:100%;
+    }
+}
