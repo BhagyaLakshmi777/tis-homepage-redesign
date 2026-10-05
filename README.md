@@ -21,13 +21,13 @@ If you are developing a production application, we recommend using TypeScript wi
 A modern, animated redesign of the Tulas International School homepage focusing on high conversion, fluid animations, and mobile responsiveness.
 
 ## 🚀 Live Demo
-- **Live URL:** [Insert Vercel / Netlify Link Here]
+- **Live URL: [https://tis-homepage-redesign-nu-three.vercel.app/]
 - **Repository: [https://github.com/BhagyaLakshmi777/tis-homepage-redesign.git]
 
 ## 🛠️ Tech Stack
 - **Framework: React.js
 - **Styling: CSS
-- **Animations: CSS
+- **Animations: React State/CSS
 - **Deployment: Vercel
 
 ## ✨ Standout Features Implemented
