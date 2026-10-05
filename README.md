@@ -22,7 +22,7 @@ A modern, animated redesign of the Tulas International School homepage focusing 
 
 ## 🚀 Live Demo
 - **Live URL:** [Insert Vercel / Netlify Link Here]
-- **Repository:** [Insert GitHub Repo Link Here]
+- **Repository: [https://github.com/BhagyaLakshmi777/tis-homepage-redesign.git]
 
 ## 🛠️ Tech Stack
 - **Framework: React.js
@@ -38,7 +38,7 @@ A modern, animated redesign of the Tulas International School homepage focusing 
 
 1. **Clone the repository:**
    ```bash
-   git clone https://github.com/your-username/tis-homepage-redesign.git
+   git clone [https://github.com/BhagyaLakshmi777/tis-homepage-redesign.git]
    cd tis-homepage-redesign
 ```
 
